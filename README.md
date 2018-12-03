@@ -4,7 +4,7 @@
 ### demo
 https://yemuguliunian.github.io/rc-marquee/doc/index.html#/demo
 
-###使用示例
+### 使用示例
 ```javascript
 import Marquee from 'Marquee';
 
