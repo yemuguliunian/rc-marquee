@@ -1,0 +1,30 @@
+
+html, body, #root {
+  height: 100%;
+}
+
+.wrap {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+.wrap .innerWrap {
+  height: 100%;
+  width: 100%;
+}
+.wrap span {
+  background-color: #f8f8fa;
+  padding: 5px;
+  display: inline-block;
+}
+.rc-marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.rc-marquee-text {
+  display: inline;
+}
+.rc-marquee-text-hide {
+  display: none;
+}
