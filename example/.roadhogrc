@@ -1,0 +1,31 @@
+{
+    "entry": "src/index.js",
+    "autoprefixer": {
+        "browsers": [
+            "ie >= 9"
+        ]
+    },
+    "disableCSSModules" : true,
+    "proxy": {
+        
+    },
+    "publicPath": "./",
+    "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": "css" }]
+    ],
+    "env": {
+        "development": {
+            "extraBabelPlugins": [
+                "dva-hmr",
+                "transform-runtime"
+            ]
+        },
+        "production": {
+            "extraBabelPlugins": [
+                "transform-runtime",
+                ["transform-remove-console", { "exclude": [ "error", "warn"] }]
+            ]
+        }
+  }
+}

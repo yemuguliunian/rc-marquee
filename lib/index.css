@@ -1,0 +1,11 @@
+.rc-marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.rc-marquee-text {
+  display: inline;
+}
+.rc-marquee-text-hide {
+  display: none;
+}
