@@ -1,13 +1,14 @@
 {
-  "name": "vtx-layout",
+  "name": "rc-marquee",
   "version": "1.0.0",
-  "description": "",
+  "description": "文字滚动",
   "main": "lib/index.js",
   "scripts": {
     "build": "rimraf lib && babel src --out-dir lib && node build.js"
   },
+  "homepage": "https://github.com/yemuguliunian/rc-marquee",
   "keywords": [
-    "react"
+    "react", "marquee", "文字滚动", "滚动"
   ],
   "files": [
     "lib"
